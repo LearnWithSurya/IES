@@ -41,6 +41,8 @@ public class Application {
 		productRepository.save(prd);
 		System.out.println("###########Product Record saved");
 		Order order = context.getBean(Order.class);
+		int i=20;
+		int j=30;
 	}
 
 }
